@@ -8,8 +8,7 @@
   var wrap=document.getElementById('ecm-embed-wrap');
   var frame=document.getElementById('ecm-embed-frame');
   if(!wrap||!frame)return;
-  // TODO: নিচের URL-এ আপনার GitHub username ও repo name বসান
-  var src='https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/blogger-web/eee-career-masterbook-blogger.html';
+  var src='https://cdn.jsdelivr.net/gh/favoritecode/EEE-Career-Masterbook@main/blogger-web/eee-career-masterbook-blogger.html';
   frame.src=src;
   window.addEventListener('message',function(e){
     if(e.data&&e.data.ecmHeight&&e.source===frame.contentWindow){
