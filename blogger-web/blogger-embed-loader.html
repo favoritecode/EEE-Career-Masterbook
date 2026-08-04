@@ -28,6 +28,8 @@
       frame.contentWindow.postMessage({ecmDark:dark},'*');
     }catch(e){}
   }
+  // Send dark state after iframe loads (srcdoc content ready)
+  frame.addEventListener('load',function(){setTimeout(syncDark,100);});
   window.addEventListener('load',syncDark);
   if(window.MutationObserver){
     new MutationObserver(syncDark).observe(document.body,{attributes:true,attributeFilter:['class']});
