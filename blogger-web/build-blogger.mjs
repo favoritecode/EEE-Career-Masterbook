@@ -66,6 +66,11 @@ built = built.replace('<link rel="stylesheet" href="assets/styles.css">', () => 
 built = built.replace('<script src="assets/data.js"></script>', () => `<script>${fs.readFileSync(path.join(import.meta.dirname, 'assets', 'data.js'), 'utf8')}</script>`);
 built = built.replace('<script src="assets/app.js"></script>', () => `<script>${fs.readFileSync(path.join(import.meta.dirname, 'assets', 'app.js'), 'utf8')}</script>`);
 fs.writeFileSync(path.join(import.meta.dirname, 'eee-career-masterbook-self-contained.html'), built);
+const bloggerBuilt = built.replace(
+  '</title>',
+  '</title>\n<style>html,body{margin:0;padding:0;background:#f5f8f8}</style>'
+);
+fs.writeFileSync(path.join(import.meta.dirname, 'eee-career-masterbook-blogger.html'), bloggerBuilt);
 
 console.log(`Built ${chapters.length} chapter(s)`);
 console.log('  → blogger-web/index.html (links styles.css, data.js, app.js)');
