@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EEE Career Masterbook</title>
+<style>html,body{margin:0;padding:0;background:#f5f8f8}</style>
+</head>
+<body>
 <!-- EEE Career Masterbook: Blogger-safe content widget -->
 <script>window.MathJax=window.MathJax||{tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -540,3 +549,6 @@ $('#ecm-total-chapters').textContent=chapters.length;$('#ecm-total-topics').text
 /* Parent-frame auto-height notification (Blogger iframe loader support) */
 try{if(window.parent!==window){const send=()=>{parent.postMessage({ecmHeight:Math.max(document.documentElement.scrollHeight,document.body.scrollHeight)},'*')};send();window.addEventListener('resize',send);if(window.MutationObserver){const ro=new MutationObserver(send);ro.observe(document.body,{childList:true,subtree:true,attributes:true})}setTimeout(send,600);setTimeout(send,2000);setTimeout(send,5000)}}catch(e){}
 </script>
+
+</body>
+</html>

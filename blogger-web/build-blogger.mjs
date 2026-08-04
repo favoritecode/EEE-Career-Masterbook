@@ -45,6 +45,19 @@ html = html.replace(/assets\/([^'"`]+)\.png/g, (reference, relativePath) => {
   const webpPath = path.join(import.meta.dirname, 'assets', `${relativePath}.webp`);
   return fs.existsSync(webpPath) ? `assets/${relativePath}.webp` : reference;
 });
+// Wrap the widget fragment in a full HTML document so it renders as a proper
+// web view when loaded directly inside an <iframe> or from a CDN (jsDelivr).
+html = '<!DOCTYPE html>\n'
+  + '<html lang="en">\n'
+  + '<head>\n'
+  + '<meta charset="UTF-8">\n'
+  + '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+  + '<title>EEE Career Masterbook</title>\n'
+  + '<style>html,body{margin:0;padding:0;background:#f5f8f8}</style>\n'
+  + '</head>\n'
+  + '<body>\n'
+  + html
+  + '\n</body>\n</html>';
 fs.writeFileSync(path.join(import.meta.dirname, 'eee-career-masterbook-blogger.html'), html);
 let selfContained = html;
 const assetsPath = path.join(import.meta.dirname, 'assets');
