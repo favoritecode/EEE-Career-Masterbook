@@ -1,0 +1,1627 @@
+Now generate Chapter-03 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as Chapter-01 and Chapter-02.
+
+Do not change anything.
+
+Generate these files:
+
+- Chapter-03.md
+- Chapter-03_MCQ.md
+- Chapter-03_Viva.md
+- Chapter-03_Glossary.md
+- Chapter-03_References.md
+- Chapter-03_Videos.md
+
+Chapter Title:
+
+Electrical Power, Energy and Efficiency
+
+Topics:
+
+1. Electrical Power
+2. Electrical Energy
+3. Relationship Between Power and Energy
+4. Efficiency
+5. Energy Consumption and Billing
+6. Practical Applications of Power and Energy
+
+Maintain complete consistency with the previous chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+Now generate Chapter-04 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as Chapter-01, Chapter-02 and Chapter-03.
+
+Do not change anything.
+
+Generate these files:
+
+- Chapter-04.md
+- Chapter-04_MCQ.md
+- Chapter-04_Viva.md
+- Chapter-04_Glossary.md
+- Chapter-04_References.md
+- Chapter-04_Videos.md
+
+Chapter Title:
+
+Series, Parallel and Series-Parallel Circuits
+
+Topics:
+
+1. Electric Circuit
+2. Open Circuit
+3. Closed Circuit
+4. Short Circuit
+5. Series Circuit
+6. Parallel Circuit
+7. Series-Parallel Circuit
+8. Comparison Between Series and Parallel Circuits
+9. Practical Applications of Electrical Circuits
+
+Maintain complete consistency with the previous chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+Now generate Chapter-05 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as the previous chapters.
+
+Do not change anything.
+
+Generate these files:
+
+- Chapter-05.md
+- Chapter-05_MCQ.md
+- Chapter-05_Viva.md
+- Chapter-05_Glossary.md
+- Chapter-05_References.md
+- Chapter-05_Videos.md
+
+Chapter Title:
+
+Kirchhoff's Laws and DC Circuit Analysis
+
+Topics:
+
+1. Kirchhoff's Current Law (KCL)
+2. Kirchhoff's Voltage Law (KVL)
+3. Node and Branch
+4. Loop and Mesh
+5. DC Circuit Analysis using KCL
+6. DC Circuit Analysis using KVL
+7. Practical Applications of Kirchhoff's Laws
+
+Maintain complete consistency with all previous chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+
+Now generate Chapter-06 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previous chapters.
+
+Do not change anything.
+
+Generate these files:
+
+- Chapter-06.md
+- Chapter-06_MCQ.md
+- Chapter-06_Viva.md
+- Chapter-06_Glossary.md
+- Chapter-06_References.md
+- Chapter-06_Videos.md
+
+Chapter Title:
+
+Magnetism and Electromagnetism
+
+Topics:
+
+1. Magnetism
+2. Magnetic Materials
+3. Magnetic Field
+4. Magnetic Flux
+5. Electromagnetism
+6. Electromagnetic Induction
+7. Faraday's Laws of Electromagnetic Induction
+8. Lenz's Law
+9. Practical Applications of Electromagnetism
+
+Maintain complete consistency with all previous chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+Now generate Chapter-07 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previous chapters.
+
+Do not change anything.
+
+Generate these files:
+
+- Chapter-07.md
+- Chapter-07_MCQ.md
+- Chapter-07_Viva.md
+- Chapter-07_Glossary.md
+- Chapter-07_References.md
+- Chapter-07_Videos.md
+
+Chapter Title:
+
+Alternating Current (AC) Fundamentals
+
+Topics:
+
+1. Alternating Current (AC)
+2. Alternating Voltage
+3. AC Waveform
+4. Frequency
+5. Time Period
+6. Amplitude (Peak Value)
+7. RMS Value
+8. Average Value
+9. Phase and Phase Difference
+10. Practical Applications of AC
+
+Maintain complete consistency with all previous chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+Now generate Chapter-08 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previous chapters.
+
+Do not change anything.
+
+Generate these files:
+
+- Chapter-08.md
+- Chapter-08_MCQ.md
+- Chapter-08_Viva.md
+- Chapter-08_Glossary.md
+- Chapter-08_References.md
+- Chapter-08_Videos.md
+
+Chapter Title:
+
+Transformers
+
+Topics:
+
+1. Introduction to Transformers
+2. Working Principle of a Transformer
+3. Construction of a Transformer
+4. Types of Transformers
+5. EMF Equation of a Transformer
+6. Turns Ratio
+7. Transformer Losses
+8. Efficiency of a Transformer
+9. Voltage Regulation
+10. Practical Applications of Transformers
+
+Maintain complete consistency with all previous chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+
+Now generate Chapter-09 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previous chapters.
+
+Do not change anything.
+
+Generate these files:
+
+- Chapter-09.md
+- Chapter-09_MCQ.md
+- Chapter-09_Viva.md
+- Chapter-09_Glossary.md
+- Chapter-09_References.md
+- Chapter-09_Videos.md
+
+Chapter Title:
+
+AC Circuit Analysis
+
+Topics:
+
+1. Resistance in AC Circuits
+2. Inductance
+3. Capacitance
+4. Inductive Reactance (XL)
+5. Capacitive Reactance (XC)
+6. Impedance (Z)
+7. Phase Relationship in R, L and C Circuits
+8. Series RLC Circuit
+9. Power Factor
+10. Power Triangle
+11. Practical Applications of AC Circuits
+
+Maintain complete consistency with all previous chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+
+
+Before generating any more chapters, perform a complete curriculum review of Chapters 01–09.
+
+Your task is NOT to rewrite the chapters.
+
+Instead, act as a senior EEE professor and curriculum designer.
+
+Review the chapter sequence based on:
+
+- Learning progression
+- Prerequisite knowledge
+- Engineering education standards
+- Diploma curriculum
+- BSc EEE first-year fundamentals
+- Technical job preparation
+- Competitive examinations
+
+Current Roadmap:
+
+Chapter-01 – Introduction to Electricity
+Chapter-02 – Voltage, EMF, Potential Difference, Resistance and Ohm's Law
+Chapter-03 – Electrical Power, Energy and Efficiency
+Chapter-04 – Series, Parallel and Series-Parallel Circuits
+Chapter-05 – Kirchhoff's Laws and DC Circuit Analysis
+Chapter-06 – Magnetism and Electromagnetism
+Chapter-07 – Alternating Current (AC) Fundamentals
+Chapter-08 – Transformers
+Chapter-09 – AC Circuit Analysis
+
+Tasks:
+
+1. Review whether the order is educationally correct.
+2. Identify any missing prerequisite chapters.
+3. Recommend a better sequence if necessary.
+4. Explain WHY each change is recommended.
+5. Keep all existing chapter content whenever possible.
+6. Minimize unnecessary reordering.
+7. Design the best roadmap for a "Basic EEE Fundamentals" book consisting of approximately 30 chapters.
+
+IMPORTANT:
+
+Do NOT rewrite the chapter contents.
+
+Do NOT modify any files yet.
+
+Only provide the recommended roadmap and the reasoning behind it.
+
+Wait for my approval before making any changes.
+
+
+
+Excellent.
+
+I approve this roadmap with only minor wording improvements if necessary.
+
+Lock this curriculum as:
+
+EEE Career Masterbook
+Basic EEE Fundamentals
+Roadmap Version 1.0
+
+This roadmap is now the official curriculum for the entire project.
+
+Rules:
+
+- Do not change the chapter order.
+- Do not change chapter numbers.
+- Do not rename chapters unless I explicitly request it.
+- All future chapters must follow this roadmap.
+- Maintain complete consistency with Chapters 01–09.
+- All future MCQ, Viva, Glossary, References and Videos must follow the same architecture.
+- All cross-references and "What's Next" sections must follow this roadmap.
+
+Before generating Chapter-10, update the existing roadmap if required so it matches the approved Version 1.0 exactly.
+
+If any existing chapters (01–09) need only chapter-number adjustments because of the new roadmap, prepare a migration plan first.
+
+Do NOT rewrite any educational content.
+
+Do NOT modify any files yet.
+
+Only provide:
+
+1. The final locked roadmap.
+2. Any required chapter renumbering.
+3. A migration plan.
+4. A mapping table from old chapter numbers to new chapter numbers.
+
+Wait for my approval before making any changes.
+
+
+
+
+I approve the migration plan.
+
+Proceed with the migration only.
+
+Requirements:
+
+- Do NOT rewrite any educational content.
+- Do NOT change the writing style.
+- Do NOT regenerate MCQ, Viva, Glossary, References or Videos.
+- Only perform chapter renumbering and update internal cross-references.
+- Update filenames, chapter numbers, headings, references and "What's Next" sections where necessary.
+- Preserve all existing content exactly.
+
+After migration is complete, provide a final mapping table showing old chapter numbers and new chapter numbers.
+
+Then stop and wait for my approval before generating any new chapters.
+
+
+
+
+Now generate Chapter-03 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-03.md
+- Chapter-03_MCQ.md
+- Chapter-03_Viva.md
+- Chapter-03_Glossary.md
+- Chapter-03_References.md
+- Chapter-03_Videos.md
+
+Chapter Title:
+
+Electrical Safety, Symbols, Tools and Basic Measurements
+
+Topics:
+
+1. Introduction to Electrical Safety
+2. Electrical Hazards and Risk Prevention
+3. Personal Protective Equipment (PPE)
+4. Common Electrical Symbols
+5. Basic Electrical Tools
+6. Measuring Instruments (Ammeter, Voltmeter, Ohmmeter, Multimeter, Clamp Meter)
+7. Safe Measurement Practices
+8. SI Units, Symbols and Common Electrical Quantities
+9. Practical Safety Rules in Home, Laboratory and Industry
+
+Requirements:
+
+- Follow exactly the same writing style and structure as previous chapters.
+- Use practical real-life examples where appropriate.
+- Include comparison tables where helpful.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content beginner-friendly while suitable for Diploma, BSc EEE, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+
+Now generate Chapter-07 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-07.md
+- Chapter-07_MCQ.md
+- Chapter-07_Viva.md
+- Chapter-07_Glossary.md
+- Chapter-07_References.md
+- Chapter-07_Videos.md
+
+Chapter Title:
+
+DC Network Theorems and Circuit Simplification
+
+Topics:
+
+1. Introduction to Network Theorems
+2. Superposition Theorem
+3. Thevenin's Theorem
+4. Norton's Theorem
+5. Maximum Power Transfer Theorem
+6. Source Transformation
+7. Delta (Δ) to Star (Y) Transformation
+8. Star (Y) to Delta (Δ) Transformation
+9. Practical DC Circuit Simplification
+10. Real-Life Applications of Network Theorems
+
+Requirements:
+
+- Follow exactly the same writing style and structure as previous chapters.
+- Explain each theorem step by step.
+- Include solved conceptual examples where appropriate.
+- Add comparison tables whenever helpful.
+- Keep the content beginner-friendly while suitable for Diploma, BSc EEE, technical job preparation and competitive examinations.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+Now generate Chapter-08 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-08.md
+- Chapter-08_MCQ.md
+- Chapter-08_Viva.md
+- Chapter-08_Glossary.md
+- Chapter-08_References.md
+- Chapter-08_Videos.md
+
+Chapter Title:
+
+Capacitors, Inductors, RL, RC and DC Transient Circuits
+
+Topics:
+
+1. Introduction to Capacitors
+2. Capacitance and Capacitance Formula
+3. Types of Capacitors
+4. Capacitors in Series and Parallel
+5. Introduction to Inductors
+6. Inductance and Inductance Formula
+7. Types of Inductors
+8. Inductors in Series and Parallel
+9. Energy Stored in Capacitors and Inductors
+10. RC Circuits
+11. RL Circuits
+12. Charging and Discharging of Capacitors
+13. DC Transient Response
+14. Time Constant
+15. Practical Applications of Capacitors and Inductors
+
+Requirements:
+
+- Follow exactly the same writing style and structure as previous chapters.
+- Explain each concept step by step using simple technical English.
+- Include comparison tables where appropriate.
+- Include practical engineering examples and real-life applications.
+- Clearly explain charging, discharging and transient behavior without assuming advanced mathematics.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+Now generate Chapter-11 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-11.md
+- Chapter-11_MCQ.md
+- Chapter-11_Viva.md
+- Chapter-11_Glossary.md
+- Chapter-11_References.md
+- Chapter-11_Videos.md
+
+Chapter Title:
+
+Complex Numbers, Phasors and AC Mathematics
+
+Topics:
+
+1. Introduction to Complex Numbers
+2. Real and Imaginary Numbers
+3. Rectangular Form of Complex Numbers
+4. Polar Form of Complex Numbers
+5. Conversion Between Rectangular and Polar Forms
+6. Addition and Subtraction of Complex Numbers
+7. Multiplication and Division of Complex Numbers
+8. Introduction to Phasors
+9. Phasor Representation of AC Quantities
+10. Phasor Addition and Subtraction
+11. Euler's Formula (Basic Introduction)
+12. Practical Applications of Complex Numbers and Phasors in AC Circuits
+
+Requirements:
+
+- Follow exactly the same writing style and structure as previous chapters.
+- Explain every concept step by step using simple technical English.
+- Focus on engineering applications rather than advanced mathematics.
+- Include worked examples where appropriate.
+- Include comparison tables wherever helpful.
+- Clearly connect this chapter with AC Circuit Analysis (Chapter-12).
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+
+
+Now generate Chapter-13 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Generate:
+
+- Chapter-13.md
+- Chapter-13_MCQ.md
+- Chapter-13_Viva.md
+- Chapter-13_Glossary.md
+- Chapter-13_References.md
+- Chapter-13_Videos.md
+
+Chapter Title:
+
+Resonance and Basic Filter Circuits
+
+Topics:
+
+1. Introduction to Resonance
+2. Series Resonance
+3. Parallel Resonance
+4. Resonant Frequency
+5. Quality Factor (Q)
+6. Bandwidth
+7. Selectivity
+8. Introduction to Filters
+9. Low Pass Filter
+10. High Pass Filter
+11. Band Pass Filter
+12. Band Stop Filter
+13. Practical Applications of Resonance and Filters
+
+Follow exactly the same structure as previous chapters.
+
+Do not modify any previous chapter.
+
+Wait for approval after completing each file.
+
+
+
+Now generate Chapter-14 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Generate:
+
+- Chapter-14.md
+- Chapter-14_MCQ.md
+- Chapter-14_Viva.md
+- Chapter-14_Glossary.md
+- Chapter-14_References.md
+- Chapter-14_Videos.md
+
+Chapter Title:
+
+Three-Phase AC Systems
+
+Topics:
+
+1. Introduction to Three-Phase Systems
+2. Generation of Three-Phase Voltage
+3. Phase Sequence
+4. Star (Y) Connection
+5. Delta (Δ) Connection
+6. Line Voltage and Phase Voltage
+7. Line Current and Phase Current
+8. Three-Phase Power
+9. Advantages of Three-Phase Systems
+10. Practical Applications of Three-Phase Systems
+
+Follow exactly the same structure as previous chapters.
+
+Do not modify any previous chapter.
+
+Wait for approval after completing each file.
+
+
+Now generate Chapter-16 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-16.md
+- Chapter-16_MCQ.md
+- Chapter-16_Viva.md
+- Chapter-16_Glossary.md
+- Chapter-16_References.md
+- Chapter-16_Videos.md
+
+Chapter Title:
+
+DC Generators and DC Motors
+
+Topics:
+
+1. Introduction to DC Machines
+2. Principle of Operation of DC Generators
+3. Construction of DC Generators
+4. EMF Equation of DC Generators
+5. Types of DC Generators
+6. Principle of Operation of DC Motors
+7. Construction of DC Motors
+8. Back EMF
+9. Types of DC Motors
+10. Speed Control of DC Motors
+11. Characteristics of DC Motors
+12. Applications of DC Generators
+13. Applications of DC Motors
+14. Advantages and Limitations of DC Machines
+15. Safety Precautions and Maintenance of DC Machines
+
+Requirements:
+
+- Follow exactly the same writing style and structure as previous chapters.
+- Explain each concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Include practical engineering examples and real-life applications.
+- Clearly explain the differences between DC Generators and DC Motors.
+- Include important formulas with proper explanations.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+Now generate Chapter-17 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-17.md
+- Chapter-17_MCQ.md
+- Chapter-17_Viva.md
+- Chapter-17_Glossary.md
+- Chapter-17_References.md
+- Chapter-17_Videos.md
+
+Chapter Title:
+
+Three-Phase Induction Motors
+
+Topics:
+
+1. Introduction to Three-Phase Induction Motors
+2. Principle of Operation
+3. Construction of Three-Phase Induction Motors
+4. Stator and Rotor
+5. Types of Rotors (Squirrel Cage and Slip Ring)
+6. Rotating Magnetic Field (RMF)
+7. Slip and Slip Formula
+8. Torque and Speed Characteristics
+9. Starting Methods of Three-Phase Induction Motors
+10. Speed Control Methods
+11. Losses and Efficiency
+12. Advantages and Limitations
+13. Common Faults and Troubleshooting
+14. Maintenance and Safety Precautions
+15. Industrial Applications of Three-Phase Induction Motors
+
+Requirements:
+
+- Follow exactly the same writing style and structure as previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain the difference between Squirrel Cage and Slip Ring induction motors.
+- Include important formulas with proper explanations.
+- Include practical engineering examples and real-life industrial applications.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+Now generate Chapter-18 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-18.md
+- Chapter-18_MCQ.md
+- Chapter-18_Viva.md
+- Chapter-18_Glossary.md
+- Chapter-18_References.md
+- Chapter-18_Videos.md
+
+Chapter Title:
+
+Single-Phase Motors
+
+Topics:
+
+1. Introduction to Single-Phase Motors
+2. Principle of Operation
+3. Why Single-Phase Motors Are Not Self-Starting
+4. Construction of Single-Phase Motors
+5. Rotating Magnetic Field (Basic Concept)
+6. Types of Single-Phase Motors
+   - Split-Phase Motor
+   - Capacitor Start Motor
+   - Capacitor Start Capacitor Run Motor
+   - Shaded Pole Motor
+   - Universal Motor
+7. Starting Methods
+8. Speed Control Methods
+9. Torque Characteristics
+10. Advantages and Limitations
+11. Common Faults and Troubleshooting
+12. Maintenance and Safety Precautions
+13. Practical Applications of Single-Phase Motors
+14. Comparison Between Single-Phase and Three-Phase Motors
+
+Requirements:
+
+- Follow exactly the same writing style and structure as previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain why single-phase motors are not self-starting.
+- Compare all major types of single-phase motors.
+- Include practical engineering examples and household applications.
+- Include important formulas only where applicable.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+Now generate Chapter-19 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-19.md
+- Chapter-19_MCQ.md
+- Chapter-19_Viva.md
+- Chapter-19_Glossary.md
+- Chapter-19_References.md
+- Chapter-19_Videos.md
+
+Chapter Title:
+
+Synchronous Generators and Motors
+
+Topics:
+
+1. Introduction to Synchronous Machines
+2. Principle of Operation
+3. Construction of Synchronous Machines
+4. Stator and Rotor
+5. Types of Rotors
+   - Salient Pole Rotor
+   - Cylindrical (Non-Salient) Rotor
+6. Synchronous Speed
+7. Synchronous Generator (Alternator)
+8. Synchronous Motor
+9. Excitation System
+10. Synchronization Process
+11. Hunting and Damper Windings
+12. Advantages and Limitations
+13. Comparison Between Synchronous and Induction Machines
+14. Common Faults, Maintenance and Safety Precautions
+15. Practical Applications of Synchronous Generators and Motors
+
+Requirements:
+
+- Follow exactly the same writing style and structure as previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain the difference between synchronous generators and synchronous motors.
+- Explain synchronous speed and synchronization with practical examples.
+- Compare salient pole and cylindrical rotors.
+- Compare synchronous machines with induction machines.
+- Include important formulas with proper explanations.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+Now generate Chapter-20 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-20.md
+- Chapter-20_MCQ.md
+- Chapter-20_Viva.md
+- Chapter-20_Glossary.md
+- Chapter-20_References.md
+- Chapter-20_Videos.md
+
+Chapter Title:
+
+Motor Starting, Speed Control and Maintenance
+
+Topics:
+
+1. Introduction to Motor Starting
+2. Why Electric Motors Need Starting Methods
+3. Starting Methods of DC Motors
+4. Starting Methods of Three-Phase Induction Motors
+5. Starting Methods of Single-Phase Motors
+6. Speed Control of DC Motors
+7. Speed Control of Induction Motors
+8. Speed Control of Synchronous Motors
+9. Soft Starters
+10. Variable Frequency Drives (VFD) – Basic Introduction
+11. Routine Motor Maintenance
+12. Preventive and Predictive Maintenance
+13. Common Motor Faults and Troubleshooting
+14. Motor Protection Devices
+15. Safety Precautions During Motor Operation and Maintenance
+16. Industrial Applications and Best Practices
+
+Requirements:
+
+- Follow exactly the same writing style and structure as all previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain the purpose, operation, advantages, disadvantages and applications of each motor starting method.
+- Include Direct-On-Line (DOL), Star-Delta, Auto-Transformer, Rotor Resistance, Soft Starter and Variable Frequency Drive (VFD), and explain when each method is used.
+- Explain starting current, starting torque and their practical importance.
+- Clearly explain the speed control methods of DC Motors, Three-Phase Induction Motors and Synchronous Motors with practical examples.
+- Explain routine, preventive and predictive maintenance with practical maintenance checklists.
+- Explain common motor faults such as overheating, bearing failure, insulation failure, vibration, abnormal noise, overloading and phase failure, including their causes, symptoms and troubleshooting methods.
+- Explain the working principles and applications of common motor protection devices including Fuse, MCB, MCCB, Thermal Overload Relay, ELCB and RCCB where appropriate.
+- Include practical engineering examples, industrial applications and safety precautions.
+- Highlight important concepts that are frequently asked in Diploma, BSc EEE examinations, technical viva and engineering job recruitment tests.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+Now generate Chapter-21 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-21.md
+- Chapter-21_MCQ.md
+- Chapter-21_Viva.md
+- Chapter-21_Glossary.md
+- Chapter-21_References.md
+- Chapter-21_Videos.md
+
+Chapter Title:
+
+Generation of Electrical Power
+
+Topics:
+
+1. Introduction to Electrical Power Generation
+2. Sources of Electrical Energy
+3. Conventional Power Plants
+   - Thermal Power Plant
+   - Hydroelectric Power Plant
+   - Nuclear Power Plant
+   - Diesel Power Plant
+   - Gas Turbine Power Plant
+4. Non-Conventional (Renewable) Power Plants
+   - Solar Power Plant
+   - Wind Power Plant
+   - Biomass Power Plant
+   - Tidal Power Plant
+   - Geothermal Power Plant
+5. Working Principle of Different Power Plants
+6. Base Load and Peak Load Power Plants
+7. Load Curve and Load Duration Curve
+8. Capacity Factor, Plant Factor and Load Factor
+9. Advantages and Disadvantages of Different Power Plants
+10. Power Generation in Bangladesh (Basic Overview)
+11. Environmental Impact of Power Generation
+12. Safety Practices in Power Plants
+13. Practical Applications and Industrial Importance
+
+Requirements:
+
+- Follow exactly the same writing style and structure as all previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain the construction, working principle, advantages, disadvantages and applications of each type of power plant.
+- Compare conventional and renewable power generation systems.
+- Explain base load, peak load, load curve, load duration curve, capacity factor, plant factor and load factor with practical examples.
+- Include practical engineering examples and real-life industrial applications.
+- Include a basic overview of the power generation sector in Bangladesh.
+- Highlight important concepts frequently asked in Diploma, BSc EEE examinations, technical viva and engineering job recruitment tests.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+Now generate Chapter-22 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-22.md
+- Chapter-22_MCQ.md
+- Chapter-22_Viva.md
+- Chapter-22_Glossary.md
+- Chapter-22_References.md
+- Chapter-22_Videos.md
+
+Chapter Title:
+
+Transmission and Distribution
+
+Topics:
+
+1. Introduction to Power Transmission and Distribution
+2. Need for High Voltage Transmission
+3. Types of Transmission Systems
+   - Overhead Transmission
+   - Underground Cable Transmission
+4. Transmission Line Components
+5. Transmission Line Parameters
+   - Resistance
+   - Inductance
+   - Capacitance
+6. Classification of Transmission Lines
+   - Short Transmission Line
+   - Medium Transmission Line
+   - Long Transmission Line
+7. Power Distribution System
+8. Primary Distribution
+9. Secondary Distribution
+10. Distribution Transformers
+11. Feeders, Distributors and Service Mains
+12. Transmission and Distribution Losses
+13. Methods of Reducing Power Losses
+14. Grid and Substation (Basic Introduction)
+15. Advantages and Disadvantages of Different Distribution Systems
+16. Practical Applications and Industrial Importance
+
+Requirements:
+
+- Follow exactly the same writing style and structure as all previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain why electrical power is transmitted at high voltage.
+- Compare overhead and underground transmission systems.
+- Explain transmission line parameters with practical engineering examples.
+- Clearly explain short, medium and long transmission lines.
+- Explain feeders, distributors and service mains with diagrams or tables where appropriate.
+- Explain the structure and operation of primary and secondary distribution systems.
+- Explain transmission and distribution losses, their causes and methods of reduction.
+- Provide a basic introduction to electrical grids and substations.
+- Include practical engineering examples and real-life industrial applications.
+- Highlight important concepts frequently asked in Diploma, BSc EEE examinations, technical viva and engineering job recruitment tests.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+Now generate Chapter-23 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-23.md
+- Chapter-23_MCQ.md
+- Chapter-23_Viva.md
+- Chapter-23_Glossary.md
+- Chapter-23_References.md
+- Chapter-23_Videos.md
+
+Chapter Title:
+
+Electrical Wiring, Cables and Installation
+
+Topics:
+
+1. Introduction to Electrical Wiring
+2. Types of Electrical Wiring Systems
+   - Cleat Wiring
+   - Batten Wiring
+   - Casing and Capping Wiring
+   - Conduit Wiring (Surface and Concealed)
+3. Types of Electrical Cables
+4. Cable Construction
+5. Cable Size Selection
+6. Wire Gauge and Current Carrying Capacity
+7. Colour Coding of Electrical Wires
+8. Cable Joints and Cable Terminations
+9. Electrical Accessories
+   - Switch
+   - Socket
+   - Plug
+   - Distribution Board (DB)
+   - Junction Box
+10. Domestic Wiring
+11. Industrial Wiring
+12. Electrical Installation Procedures
+13. Cable Testing and Inspection
+14. Common Wiring Faults and Troubleshooting
+15. Electrical Installation Standards and Best Practices
+16. Practical Applications and Industrial Importance
+
+Requirements:
+
+- Follow exactly the same writing style and structure as all previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain different types of wiring systems with their advantages, disadvantages and applications.
+- Explain cable construction, insulation materials and cable selection criteria.
+- Explain wire gauge, cable sizing and current carrying capacity with practical examples.
+- Explain colour coding according to commonly accepted electrical standards and mention that local regulations may vary.
+- Explain domestic and industrial wiring with practical examples.
+- Explain cable testing methods, insulation testing and continuity testing at a basic level.
+- Explain common wiring faults including short circuit, open circuit, loose connection, earth leakage and overload with troubleshooting methods.
+- Include practical engineering examples, safety precautions and industrial best practices.
+- Highlight important concepts frequently asked in Diploma, BSc EEE examinations, technical viva and engineering job recruitment tests.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+Now generate Chapter-24 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-24.md
+- Chapter-24_MCQ.md
+- Chapter-24_Viva.md
+- Chapter-24_Glossary.md
+- Chapter-24_References.md
+- Chapter-24_Videos.md
+
+Chapter Title:
+
+Earthing, Protection, Switchgear and Circuit Breakers
+
+Topics:
+
+1. Introduction to Electrical Protection
+2. Importance of Electrical Protection
+3. Earthing (Grounding)
+4. Objectives and Benefits of Earthing
+5. Types of Earthing
+   - Plate Earthing
+   - Pipe Earthing
+   - Rod Earthing
+   - Strip/Wire Earthing
+6. Earth Resistance and Earth Resistance Measurement
+7. Equipment Earthing vs System Earthing
+8. Electrical Faults
+   - Short Circuit
+   - Open Circuit
+   - Earth Fault
+   - Overload
+9. Protective Devices
+   - Fuse
+   - MCB
+   - MCCB
+   - RCCB
+   - ELCB
+   - RCBO
+10. Relays (Basic Introduction)
+11. Switchgear
+12. Circuit Breakers
+   - Air Circuit Breaker (ACB)
+   - Vacuum Circuit Breaker (VCB)
+   - Oil Circuit Breaker (OCB)
+   - SF6 Circuit Breaker
+13. Surge Protection Devices (SPD)
+14. Lightning Protection System (Basic Introduction)
+15. Coordination of Protective Devices
+16. Maintenance and Testing of Protection Systems
+17. Safety Standards and Best Practices
+18. Practical Applications and Industrial Importance
+
+Requirements:
+
+- Follow exactly the same writing style and structure as all previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain the purpose, working principle, advantages, disadvantages and applications of all major protection devices.
+- Compare Fuse, MCB, MCCB, RCCB, ELCB and RCBO with practical examples.
+- Clearly explain different types of earthing and where each is used.
+- Explain earth resistance, acceptable earth resistance values and basic measurement methods.
+- Explain different types of circuit breakers including ACB, VCB, OCB and SF6 Circuit Breakers.
+- Include a basic introduction to relays, switchgear, surge protection and lightning protection.
+- Explain common electrical faults and how protection devices respond to each fault.
+- Include practical engineering examples, industrial applications and safety precautions.
+- Highlight important concepts frequently asked in Diploma, BSc EEE examinations, technical viva and engineering job recruitment tests.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+Now generate Chapter-25 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-25.md
+- Chapter-25_MCQ.md
+- Chapter-25_Viva.md
+- Chapter-25_Glossary.md
+- Chapter-25_References.md
+- Chapter-25_Videos.md
+
+Chapter Title:
+
+Electrical Estimation, Load Calculation and Energy Management
+
+Topics:
+
+1. Introduction to Electrical Estimation
+2. Objectives and Importance of Electrical Estimation
+3. Types of Electrical Loads
+4. Connected Load
+5. Maximum Demand
+6. Demand Factor
+7. Diversity Factor
+8. Load Factor
+9. Power Factor (Review)
+10. Electrical Load Calculation for Residential Buildings
+11. Electrical Load Calculation for Commercial Buildings
+12. Cable Size Selection Based on Load
+13. Selection of Protective Devices Based on Load
+14. Electrical Energy Consumption Calculation
+15. Electricity Billing (Basic Concept)
+16. Energy Management
+17. Energy Conservation Techniques
+18. Energy-Efficient Electrical Equipment
+19. Electrical Estimation Procedure
+20. Practical Estimation Examples
+21. Common Mistakes in Load Calculation
+22. Safety Considerations in Electrical Installation Design
+23. Practical Applications and Industrial Importance
+
+Requirements:
+
+- Follow exactly the same writing style and structure as all previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain connected load, maximum demand, demand factor, diversity factor and load factor with practical examples.
+- Demonstrate basic residential and commercial load calculations using simple numerical examples.
+- Explain cable selection and protective device selection based on calculated load.
+- Explain electrical energy consumption and electricity bill calculation using practical examples.
+- Introduce energy management principles and common energy-saving techniques suitable for homes, commercial buildings and industries.
+- Explain the importance of power factor improvement from an energy management perspective.
+- Include practical engineering examples, estimation worksheets and real-life industrial applications.
+- Highlight important concepts frequently asked in Diploma, BSc EEE examinations, technical viva and engineering job recruitment tests.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+
+Now generate Chapter-26 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-26.md
+- Chapter-26_MCQ.md
+- Chapter-26_Viva.md
+- Chapter-26_Glossary.md
+- Chapter-26_References.md
+- Chapter-26_Videos.md
+
+Chapter Title:
+
+Semiconductor Fundamentals, Diodes and Rectifiers
+
+Topics:
+
+1. Introduction to Semiconductors
+2. Conductors, Insulators and Semiconductors
+3. Atomic Structure and Energy Bands
+4. Intrinsic Semiconductors
+5. Extrinsic Semiconductors
+6. N-Type and P-Type Semiconductors
+7. PN Junction Diode
+8. Biasing of PN Junction Diode
+   - Forward Bias
+   - Reverse Bias
+9. Diode Characteristics
+10. Types of Diodes
+    - Zener Diode
+    - LED
+    - Photodiode
+    - Schottky Diode
+    - Varactor Diode
+11. Applications of Diodes
+12. Rectifiers
+    - Half-Wave Rectifier
+    - Full-Wave Rectifier
+    - Bridge Rectifier
+13. Ripple Factor
+14. Rectifier Efficiency
+15. Basic Filter Circuits for Rectifiers
+16. Voltage Regulation (Basic Introduction)
+17. Practical Applications and Industrial Importance
+
+Requirements:
+
+- Follow exactly the same writing style and structure as all previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain the differences between conductors, insulators and semiconductors.
+- Explain intrinsic, extrinsic, N-type and P-type semiconductors with practical examples.
+- Explain PN junction formation and diode operation in both forward and reverse bias.
+- Compare all major diode types with their construction, characteristics and applications.
+- Clearly explain Half-Wave, Full-Wave and Bridge Rectifiers with working principles, waveforms, advantages, disadvantages and applications.
+- Explain ripple factor, rectifier efficiency and basic filter circuits with simple examples.
+- Include practical engineering examples and industrial applications.
+- Highlight important concepts frequently asked in Diploma, BSc EEE examinations, technical viva and engineering job recruitment tests.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+Now generate Chapter-27 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-27.md
+- Chapter-27_MCQ.md
+- Chapter-27_Viva.md
+- Chapter-27_Glossary.md
+- Chapter-27_References.md
+- Chapter-27_Videos.md
+
+Chapter Title:
+
+Transistors, Amplifiers and Operational Amplifiers
+
+Topics:
+
+1. Introduction to Transistors
+2. Bipolar Junction Transistor (BJT)
+3. Construction of NPN and PNP Transistors
+4. Principle of Operation of BJT
+5. Transistor Biasing
+6. Common Transistor Configurations
+   - Common Base (CB)
+   - Common Emitter (CE)
+   - Common Collector (CC)
+7. Characteristics of Transistor Configurations
+8. Introduction to Field Effect Transistors (FET)
+9. JFET and MOSFET (Basic Introduction)
+10. Introduction to Amplifiers
+11. Types of Amplifiers
+12. Gain, Bandwidth and Frequency Response (Basic Concepts)
+13. Introduction to Operational Amplifiers (Op-Amps)
+14. Ideal Characteristics of Op-Amps
+15. Basic Op-Amp Configurations
+    - Inverting Amplifier
+    - Non-Inverting Amplifier
+    - Voltage Follower (Buffer)
+16. Practical Applications of Transistors and Op-Amps
+17. Advantages, Limitations and Industrial Importance
+
+Requirements:
+
+- Follow exactly the same writing style and structure as all previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain the construction and operation of NPN and PNP transistors.
+- Compare CB, CE and CC configurations with practical examples and applications.
+- Introduce FET, JFET and MOSFET at a beginner-friendly level.
+- Clearly explain the basic concept of amplification, gain and bandwidth.
+- Introduce operational amplifiers with emphasis on ideal characteristics and common applications.
+- Explain inverting, non-inverting and voltage follower configurations using simple examples.
+- Include practical engineering examples and industrial applications.
+- Highlight important concepts frequently asked in Diploma, BSc EEE examinations, technical viva and engineering job recruitment tests.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+Now generate Chapter-28 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-28.md
+- Chapter-28_MCQ.md
+- Chapter-28_Viva.md
+- Chapter-28_Glossary.md
+- Chapter-28_References.md
+- Chapter-28_Videos.md
+
+Chapter Title:
+
+Digital Electronics and Basic Logic Circuits
+
+Topics:
+
+1. Introduction to Digital Electronics
+2. Analog vs Digital Systems
+3. Number Systems
+   - Decimal
+   - Binary
+   - Octal
+   - Hexadecimal
+4. Number System Conversions
+5. Binary Arithmetic
+6. Binary Coded Decimal (BCD)
+7. Gray Code
+8. Logic Gates
+   - AND
+   - OR
+   - NOT
+   - NAND
+   - NOR
+   - XOR
+   - XNOR
+9. Truth Tables
+10. Boolean Algebra
+11. Boolean Laws and Theorems
+12. De Morgan's Theorems
+13. Logic Circuit Simplification
+14. Karnaugh Map (K-Map) – Basic Introduction
+15. Combinational Logic Circuits
+    - Half Adder
+    - Full Adder
+    - Half Subtractor
+    - Full Subtractor
+    - Multiplexer (Basic)
+    - Demultiplexer (Basic)
+    - Encoder (Basic)
+    - Decoder (Basic)
+16. Practical Applications of Digital Electronics
+17. Advantages, Limitations and Industrial Importance
+
+Requirements:
+
+- Follow exactly the same writing style and structure as all previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain the differences between analog and digital systems.
+- Explain all number systems and conversion methods with solved examples.
+- Explain binary arithmetic with practical examples.
+- Explain all basic logic gates with symbols, truth tables and practical applications.
+- Clearly explain Boolean algebra, Boolean laws and De Morgan's Theorems using simple examples.
+- Introduce Karnaugh Maps (K-Map) at a beginner-friendly level.
+- Explain the working principles and applications of basic combinational logic circuits.
+- Include practical engineering examples and industrial applications.
+- Highlight important concepts frequently asked in Diploma, BSc EEE examinations, technical viva and engineering job recruitment tests.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+
+
+Now generate Chapter-29 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-29.md
+- Chapter-29_MCQ.md
+- Chapter-29_Viva.md
+- Chapter-29_Glossary.md
+- Chapter-29_References.md
+- Chapter-29_Videos.md
+
+Chapter Title:
+
+Introduction to Power Electronics and Motor Drives
+
+Topics:
+
+1. Introduction to Power Electronics
+2. Importance and Applications of Power Electronics
+3. Power Semiconductor Devices
+   - Power Diode
+   - SCR (Silicon Controlled Rectifier)
+   - TRIAC
+   - DIAC
+   - Power MOSFET
+   - IGBT
+4. Switching Principles
+5. Rectifiers (Review and Power Electronics Perspective)
+6. DC-DC Converters (Basic Introduction)
+7. DC-AC Inverters (Basic Introduction)
+8. AC-DC Converters (Basic Introduction)
+9. AC-AC Controllers (Basic Introduction)
+10. Introduction to Motor Drives
+11. Types of Motor Drives
+12. Variable Frequency Drive (VFD)
+13. Soft Starter (Review and Applications)
+14. Industrial Motor Control Systems
+15. Energy Saving Using Motor Drives
+16. Advantages and Limitations of Power Electronics
+17. Practical Industrial Applications
+18. Safety Precautions and Best Practices
+
+Requirements:
+
+- Follow exactly the same writing style and structure as all previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain the purpose, working principle and applications of Power Diode, SCR, TRIAC, DIAC, MOSFET and IGBT.
+- Compare SCR, TRIAC, MOSFET and IGBT with practical engineering examples.
+- Introduce converters and inverters at a beginner-friendly level without advanced mathematical analysis.
+- Clearly explain the basic concept of motor drives and industrial motor control.
+- Explain how Variable Frequency Drives (VFDs) improve motor performance and save energy.
+- Explain the role of Soft Starters and compare them with VFDs.
+- Include practical engineering examples, industrial applications and safety precautions.
+- Highlight important concepts frequently asked in Diploma, BSc EEE examinations, technical viva and engineering job recruitment tests.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
+
+
+
+Now generate Chapter-30 using exactly the same architecture, formatting, writing style, file structure, naming conventions, cross-reference style, and educational quality as all previously approved chapters.
+
+This chapter must follow the locked Roadmap Version 1.0.
+
+Do not change the established structure.
+
+Generate these files:
+
+- Chapter-30.md
+- Chapter-30_MCQ.md
+- Chapter-30_Viva.md
+- Chapter-30_Glossary.md
+- Chapter-30_References.md
+- Chapter-30_Videos.md
+
+Chapter Title:
+
+Renewable Energy, Batteries, Troubleshooting and Practical EEE Review
+
+Topics:
+
+1. Introduction to Renewable Energy
+2. Types of Renewable Energy Sources
+   - Solar Energy
+   - Wind Energy
+   - Hydropower
+   - Biomass Energy
+   - Geothermal Energy
+   - Tidal Energy
+3. Solar Photovoltaic (PV) Systems
+4. Basic Components of Solar Power Systems
+5. Introduction to Batteries
+6. Types of Batteries
+   - Lead-Acid Battery
+   - Lithium-Ion Battery
+   - Nickel-Cadmium Battery
+7. Battery Capacity and Ratings
+8. Battery Charging and Maintenance
+9. Battery Safety and Best Practices
+10. Introduction to Electrical Troubleshooting
+11. Systematic Troubleshooting Procedure
+12. Common Electrical Faults and Their Diagnosis
+13. Electrical Safety During Troubleshooting
+14. Practical Engineering Case Studies
+15. Preventive Maintenance and Best Practices
+16. Emerging Trends in Electrical and Electronics Engineering
+17. Career Opportunities in Electrical and Electronics Engineering
+18. Chapter-Wise Practical Revision of Basic EEE Fundamentals
+19. Final Engineering Tips for Examinations, Viva, Technical Interviews and Professional Practice
+
+Requirements:
+
+- Follow exactly the same writing style and structure as all previous chapters.
+- Explain every concept step by step using simple technical English.
+- Include comparison tables wherever appropriate.
+- Clearly explain the working principles, advantages, disadvantages and applications of major renewable energy sources.
+- Compare solar, wind, hydro, biomass, geothermal and tidal energy.
+- Explain solar PV systems and their basic components with practical examples.
+- Compare Lead-Acid, Lithium-Ion and Nickel-Cadmium batteries.
+- Explain battery capacity, charging methods, maintenance and safety.
+- Present a systematic troubleshooting procedure suitable for beginners and practicing technicians.
+- Include practical fault diagnosis examples from residential, commercial and industrial electrical systems.
+- Include preventive maintenance guidelines and engineering best practices.
+- Provide a concise review connecting important concepts from Chapters 01–29 without rewriting previous content.
+- Include practical engineering examples, industrial applications and safety precautions.
+- Highlight important concepts frequently asked in Diploma, BSc EEE examinations, technical viva and engineering job recruitment tests.
+- Maintain consistency in MCQ, Viva, Glossary, References and Videos.
+- Keep the content suitable for Diploma students, BSc EEE students, technical job preparation and competitive examinations.
+- Do not rewrite or modify any existing chapters.
+
+Wait for my approval after completing each file before generating the next file.
