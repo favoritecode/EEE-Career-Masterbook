@@ -8,8 +8,8 @@
   var wrap=document.getElementById('ecm-embed-wrap');
   var frame=document.getElementById('ecm-embed-frame');
   if(!wrap||!frame)return;
-  var base='https://cdn.jsdelivr.net/gh/favoritecode/EEE-Career-Masterbook@55908b9/blogger-web/';
-  var version='20260805-shrink-height5';
+  var base='https://cdn.jsdelivr.net/gh/favoritecode/EEE-Career-Masterbook@372c6f8/blogger-web/';
+  var version='20260805-mathjax6';
   fetch(base+'index.html?v='+version)
     .then(function(r){return r.text();})
     .then(function(html){
