@@ -24,7 +24,7 @@ let html = template
   .replace(/<script>[\s\S]*?<\/script>\s*$/, '')
   .trim();
 
-const assetVersion = '20260805-shrink-height5';
+const assetVersion = '20260805-mathjax6';
 const criticalEmbedCss = `<style id="ecm-embed-critical">
 html,body{overflow-x:hidden;scrollbar-width:none}html::-webkit-scrollbar,body::-webkit-scrollbar,#eee-masterbook *::-webkit-scrollbar{width:0;height:0;display:none}#eee-masterbook *{scrollbar-width:none}
 @media(min-width:761px){#eee-masterbook .ecm-layout{align-items:stretch!important}#eee-masterbook .ecm-chapters{position:relative!important;top:auto!important;height:auto!important;max-height:none!important;overflow:visible!important}#eee-masterbook .ecm-viewer{display:flex!important;flex-direction:column!important;height:auto!important;overflow:visible!important}#eee-masterbook .ecm-content{flex:1!important}}
@@ -61,7 +61,7 @@ const indexHtml = `<!DOCTYPE html>
 <title>EEE Career Masterbook</title>
 <link rel="stylesheet" href="assets/styles.css?v=${assetVersion}">
 ${criticalEmbedCss}
-<script>window.MathJax=window.MathJax||{tex:{inlineMath:[['\\\\(','\\\\)']],displayMath:[['\\\\[','\\\\]']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
+<script>window.MathJax=window.MathJax||{tex:{inlineMath:[['\\\\(','\\\\)'],['$','$']],displayMath:[['\\\\[','\\\\]'],['$$','$$']],processEscapes:true},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
