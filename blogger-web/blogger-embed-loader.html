@@ -1,0 +1,20 @@
+<!-- EEE Career Masterbook - Blogger Embed Loader (tiny ~1KB) -->
+<!-- Blogger HTML/JavaScript gadget-এ এই কোড paste করুন। GitHub-এ push করার পর নিচের URL-এ আপনার username/repo বসান। -->
+<div id="ecm-embed-wrap" style="width:100%;max-width:100%;margin:0;padding:0;border:0">
+  <iframe id="ecm-embed-frame" style="width:100%;height:600px;border:0;display:block;overflow:hidden" allowfullscreen></iframe>
+</div>
+<script>
+(function(){
+  var wrap=document.getElementById('ecm-embed-wrap');
+  var frame=document.getElementById('ecm-embed-frame');
+  if(!wrap||!frame)return;
+  // TODO: নিচের URL-এ আপনার GitHub username ও repo name বসান
+  var src='https://cdn.jsdelivr.net/gh/YOUR_USERNAME/YOUR_REPO@main/blogger-web/eee-career-masterbook-blogger.html';
+  frame.src=src;
+  window.addEventListener('message',function(e){
+    if(e.data&&e.data.ecmHeight&&e.source===frame.contentWindow){
+      frame.style.height=Math.min(e.data.ecmHeight,20000)+'px';
+    }
+  });
+})();
+</script>
