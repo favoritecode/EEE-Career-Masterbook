@@ -24,7 +24,7 @@ let html = template
   .replace(/<script>[\s\S]*?<\/script>\s*$/, '')
   .trim();
 
-const assetVersion = '20260805-theme-dark4';
+const assetVersion = '20260805-shrink-height5';
 const criticalEmbedCss = `<style id="ecm-embed-critical">
 html,body{overflow-x:hidden;scrollbar-width:none}html::-webkit-scrollbar,body::-webkit-scrollbar,#eee-masterbook *::-webkit-scrollbar{width:0;height:0;display:none}#eee-masterbook *{scrollbar-width:none}
 @media(min-width:761px){#eee-masterbook .ecm-layout{align-items:stretch!important}#eee-masterbook .ecm-chapters{position:relative!important;top:auto!important;height:auto!important;max-height:none!important;overflow:visible!important}#eee-masterbook .ecm-viewer{display:flex!important;flex-direction:column!important;height:auto!important;overflow:visible!important}#eee-masterbook .ecm-content{flex:1!important}}
@@ -42,7 +42,8 @@ const criticalEmbedScript = `<script>
   function setDark(dark){document.documentElement.classList.toggle('dark',dark);var r=root();if(r)r.classList.toggle('dark',dark)}
   function parentDark(){try{return !!((parent.document.body&&parent.document.body.classList.contains('dark'))||parent.document.documentElement.classList.contains('dark'))}catch(e){return !!((document.body&&document.body.classList.contains('dark'))||document.documentElement.classList.contains('dark'))}}
   function syncDark(){setDark(parentDark())}
-  function syncPanels(){raf=0;var r=root(),l=r&&r.querySelector('.ecm-chapters'),v=r&&r.querySelector('.ecm-viewer');if(!l||!v)return;l.style.minHeight='';v.style.minHeight='';if(innerWidth<=760)return;var h=Math.ceil(Math.max(l.offsetHeight,v.offsetHeight));l.style.minHeight=h+'px';v.style.minHeight=h+'px'}
+  function sendHeight(){try{var r=root(),rect=r&&r.getBoundingClientRect(),h=rect?Math.ceil(rect.bottom+scrollY+2):Math.max(document.documentElement.scrollHeight,document.body.scrollHeight);parent.postMessage({ecmHeight:h},'*')}catch(e){}}
+  function syncPanels(){raf=0;var r=root(),l=r&&r.querySelector('.ecm-chapters'),v=r&&r.querySelector('.ecm-viewer');if(!l||!v){sendHeight();return}l.style.minHeight='';v.style.minHeight='';if(innerWidth<=760){sendHeight();return}var h=Math.ceil(Math.max(l.offsetHeight,v.offsetHeight));l.style.minHeight=h+'px';v.style.minHeight=h+'px';sendHeight()}
   function queuePanels(){if(raf)cancelAnimationFrame(raf);raf=requestAnimationFrame(syncPanels)}
   window.addEventListener('message',function(e){try{if(e.data&&typeof e.data.ecmDark==='boolean')setDark(e.data.ecmDark)}catch(err){}});
   window.addEventListener('resize',queuePanels);
