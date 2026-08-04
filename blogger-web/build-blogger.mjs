@@ -6,6 +6,7 @@ const template = fs.readFileSync(path.join(import.meta.dirname, 'template.html')
 const volumeDirs = fs.readdirSync(root, { withFileTypes: true })
   .filter((item) => item.isDirectory() && /^\d+_Volume_/.test(item.name));
 
+// ---- Build chapter data ----
 const chapters = [];
 for (const volume of volumeDirs) {
   const volumePath = path.join(root, volume.name);
@@ -39,44 +40,34 @@ for (const volume of volumeDirs) {
   }
 }
 chapters.sort((a, b) => a.number - b.number);
+
+// ---- 1. Generate assets/data.js (chapter data as separate JS file) ----
 const payload = JSON.stringify(chapters).replaceAll('</script', '<\\/script');
-let html = template.replace('/*__BOOK_DATA__*/[]', payload);
-html = html.replace(/assets\/([^'"`]+)\.png/g, (reference, relativePath) => {
-  const webpPath = path.join(import.meta.dirname, 'assets', `${relativePath}.webp`);
-  return fs.existsSync(webpPath) ? `assets/${relativePath}.webp` : reference;
-});
-// Wrap the widget fragment in a full HTML document so it renders as a proper
-// web view when loaded directly inside an <iframe> or from a CDN (jsDelivr).
-html = '<!DOCTYPE html>\n'
-  + '<html lang="en">\n'
-  + '<head>\n'
-  + '<meta charset="UTF-8">\n'
-  + '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
-  + '<title>EEE Career Masterbook</title>\n'
-  + '<style>html,body{margin:0;padding:0;background:#f5f8f8}</style>\n'
-  + '</head>\n'
-  + '<body>\n'
-  + html
-  + '\n</body>\n</html>';
-fs.writeFileSync(path.join(import.meta.dirname, 'eee-career-masterbook-blogger.html'), html);
-let selfContained = html;
-const assetsPath = path.join(import.meta.dirname, 'assets');
-function inlineAssets(folder, relative = '') {
-  for (const entry of fs.readdirSync(folder, { withFileTypes: true })) {
-    const relativePath = path.posix.join(relative, entry.name);
-    const absolutePath = path.join(folder, entry.name);
-    if (entry.isDirectory()) { inlineAssets(absolutePath, relativePath); continue; }
-    if (!/\.(png|jpg|jpeg|webp|svg)$/i.test(entry.name)) continue;
-    const ext = path.extname(entry.name).slice(1).replace('jpg', 'jpeg');
-    const mime = ext === 'svg' ? 'svg+xml' : ext;
-    const data = `data:image/${mime};base64,${fs.readFileSync(absolutePath).toString('base64')}`;
-    selfContained = selfContained.replaceAll(`assets/${relativePath}`, data);
-    if (relativePath.startsWith('chapter-03-electrical-safety-symbols-tools-and-basic-measurements/') || relativePath.startsWith('chapter-07-dc-network-theorems-and-circuit-simplification/') || relativePath.startsWith('chapter-08-capacitors-inductors-rl-rc-and-dc-transient-circuits/') || relativePath.startsWith('chapter-10-alternating-current-ac-fundamentals/') || relativePath.startsWith('chapter-11-complex-numbers-phasors-and-ac-mathematics/') || relativePath.startsWith('chapter-13-resonance-and-basic-filter-circuits/') || relativePath.startsWith('chapter-14-three-phase-ac-systems/') || relativePath.startsWith('chapter-15-transformers/') || relativePath.startsWith('chapter-16-dc-generators-and-dc-motors/') || relativePath.startsWith('chapter-17-three-phase-induction-motors/') || relativePath.startsWith('chapter-18-single-phase-motors/') || relativePath.startsWith('chapter-19-synchronous-generators-and-motors/') || relativePath.startsWith('chapter-20-motor-starting-speed-control-and-maintenance/') || relativePath.startsWith('chapter-21-generation-of-electrical-power/') || relativePath.startsWith('chapter-22-transmission-and-distribution/') || relativePath.startsWith('chapter-23-electrical-wiring-cables-and-installation/') || relativePath.startsWith('chapter-24-earthing-protection-switchgear-and-circuit-breakers/') || relativePath.startsWith('chapter-25-electrical-estimation-load-calculation-and-energy-management/') || relativePath.startsWith('chapter-26-semiconductor-fundamentals-diodes-and-rectifiers/') || relativePath.startsWith('chapter-27-transistors-amplifiers-and-operational-amplifiers/') || relativePath.startsWith('chapter-28-digital-electronics-and-basic-logic-circuits/') || relativePath.startsWith('chapter-29-introduction-to-power-electronics-and-motor-drives/') || relativePath.startsWith('chapter-30-renewable-energy-batteries-troubleshooting-and-practical-eee-review/') || relativePath.startsWith('chapter-12-ac-circuit-analysis/')) {
-      selfContained = selfContained.replaceAll(`'${entry.name}'`, `'${data}'`);
-    }
-  }
+fs.mkdirSync(path.join(import.meta.dirname, 'assets'), { recursive: true });
+fs.writeFileSync(
+  path.join(import.meta.dirname, 'assets', 'data.js'),
+  `window.BOOK_DATA=${payload};`
+);
+
+// ---- 2. Generate index.html (HTML + links to CSS/JS/data) ----
+// The split-template script already created assets/styles.css and assets/app.js
+// from the template. This build script ensures assets/data.js is fresh, and the
+// index.html references all three: styles.css, data.js, app.js.
+let indexHtml = fs.readFileSync(path.join(import.meta.dirname, 'index.html'), 'utf8');
+// Make sure data.js is loaded (if it somehow got dropped)
+if (!indexHtml.includes('assets/data.js')) {
+  indexHtml = indexHtml.replace('<script src="assets/app.js"></script>', '<script src="assets/data.js"></script>\n<script src="assets/app.js"></script>');
 }
-if (fs.existsSync(assetsPath)) inlineAssets(assetsPath);
-selfContained = selfContained.replace(/\.map\(name=>'assets\/(chapter-(?:03|07|08|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30)-[^']+)\/'\+name\)/g, ".map(name=>name.startsWith('data:')?name:'assets/$1/'+name)");
-fs.writeFileSync(path.join(import.meta.dirname, 'eee-career-masterbook-self-contained.html'), selfContained);
-console.log(`Built ${chapters.length} chapter(s): blogger-web/eee-career-masterbook-blogger.html`);
+fs.writeFileSync(path.join(import.meta.dirname, 'index.html'), indexHtml);
+
+// ---- 3. Generate self-contained single-file versions (optional) ----
+let built = fs.readFileSync(path.join(import.meta.dirname, 'index.html'), 'utf8');
+built = built.replace('<link rel="stylesheet" href="assets/styles.css">', () => `<style>${fs.readFileSync(path.join(import.meta.dirname, 'assets', 'styles.css'), 'utf8')}</style>`);
+built = built.replace('<script src="assets/data.js"></script>', () => `<script>${fs.readFileSync(path.join(import.meta.dirname, 'assets', 'data.js'), 'utf8')}</script>`);
+built = built.replace('<script src="assets/app.js"></script>', () => `<script>${fs.readFileSync(path.join(import.meta.dirname, 'assets', 'app.js'), 'utf8')}</script>`);
+fs.writeFileSync(path.join(import.meta.dirname, 'eee-career-masterbook-self-contained.html'), built);
+
+console.log(`Built ${chapters.length} chapter(s)`);
+console.log('  → blogger-web/index.html (links styles.css, data.js, app.js)');
+console.log('  → blogger-web/assets/data.js');
+console.log('  → blogger-web/eee-career-masterbook-self-contained.html');

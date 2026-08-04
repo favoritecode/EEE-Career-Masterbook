@@ -8,7 +8,7 @@
   var wrap=document.getElementById('ecm-embed-wrap');
   var frame=document.getElementById('ecm-embed-frame');
   if(!wrap||!frame)return;
-  var src='https://cdn.jsdelivr.net/gh/favoritecode/EEE-Career-Masterbook@main/blogger-web/eee-career-masterbook-blogger.html';
+  var src='https://cdn.jsdelivr.net/gh/favoritecode/EEE-Career-Masterbook@main/blogger-web/index.html';
   frame.src=src;
   window.addEventListener('message',function(e){
     if(e.data&&e.data.ecmHeight&&e.source===frame.contentWindow){
