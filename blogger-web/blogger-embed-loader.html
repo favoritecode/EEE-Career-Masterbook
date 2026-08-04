@@ -1,5 +1,5 @@
-<!-- EEE Career Masterbook - Blogger Embed Loader (tiny ~1KB) -->
-<!-- Blogger HTML/JavaScript gadget-এ এই কোড paste করুন। GitHub-এ push করার পর নিচের URL-এ আপনার username/repo বসান। -->
+<!-- EEE Career Masterbook - Blogger Embed Loader -->
+<!-- Blogger HTML/JavaScript gadget-এ এই কোড paste করুন। -->
 <div id="ecm-embed-wrap" style="width:100%;max-width:100%;margin:0;padding:0;border:0">
   <iframe id="ecm-embed-frame" style="width:100%;height:600px;border:0;display:block;overflow:hidden" allowfullscreen></iframe>
 </div>
@@ -8,8 +8,21 @@
   var wrap=document.getElementById('ecm-embed-wrap');
   var frame=document.getElementById('ecm-embed-frame');
   if(!wrap||!frame)return;
-  var src='https://cdn.jsdelivr.net/gh/favoritecode/EEE-Career-Masterbook@main/blogger-web/index.html';
-  frame.src=src;
+  var base='https://cdn.jsdelivr.net/gh/favoritecode/EEE-Career-Masterbook@main/blogger-web/';
+  fetch(base+'index.html')
+    .then(function(r){return r.text();})
+    .then(function(html){
+      // Relative asset paths to absolute CDN URLs
+      html=html.replace('assets/styles.css',base+'assets/styles.css');
+      html=html.replace('assets/data.js',base+'assets/data.js');
+      html=html.replace('assets/app.js',base+'assets/app.js');
+      // Inject into the iframe as an HTML document (not text/plain)
+      frame.srcdoc=html;
+    })
+    .catch(function(){
+      // Fallback: point directly (best effort)
+      frame.src=base+'index.html';
+    });
   window.addEventListener('message',function(e){
     if(e.data&&e.data.ecmHeight&&e.source===frame.contentWindow){
       frame.style.height=Math.min(e.data.ecmHeight,20000)+'px';
