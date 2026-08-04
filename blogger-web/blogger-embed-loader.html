@@ -12,10 +12,8 @@
   fetch(base+'index.html')
     .then(function(r){return r.text();})
     .then(function(html){
-      // Relative asset paths to absolute CDN URLs
-      html=html.replace('assets/styles.css',base+'assets/styles.css');
-      html=html.replace('assets/data.js',base+'assets/data.js');
-      html=html.replace('assets/app.js',base+'assets/app.js');
+      // Inject <base> so relative asset/image paths resolve to the CDN
+      html=html.replace('<head>','<head><base href="'+base+'">');
       // Inject into the iframe as an HTML document (not text/plain)
       frame.srcdoc=html;
     })
@@ -23,6 +21,17 @@
       // Fallback: point directly (best effort)
       frame.src=base+'index.html';
     });
+  // Dark-mode sync: Blogger body.dark → iframe html.dark
+  function syncDark(){
+    try{
+      var dark=document.body.classList.contains('dark');
+      frame.contentWindow.postMessage({ecmDark:dark},'*');
+    }catch(e){}
+  }
+  window.addEventListener('load',syncDark);
+  if(window.MutationObserver){
+    new MutationObserver(syncDark).observe(document.body,{attributes:true,attributeFilter:['class']});
+  }
   window.addEventListener('message',function(e){
     if(e.data&&e.data.ecmHeight&&e.source===frame.contentWindow){
       frame.style.height=Math.min(e.data.ecmHeight,20000)+'px';
