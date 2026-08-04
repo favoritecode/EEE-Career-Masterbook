@@ -1,7 +1,7 @@
 <!-- EEE Career Masterbook - Blogger Embed Loader -->
 <!-- Blogger HTML/JavaScript gadget-এ এই কোড paste করুন। -->
 <div id="ecm-embed-wrap" style="width:100%;max-width:100%;margin:0;padding:0;border:0">
-  <iframe id="ecm-embed-frame" style="width:100%;height:600px;border:0;display:block;overflow:hidden" allowfullscreen></iframe>
+  <iframe id="ecm-embed-frame" style="width:100%;height:600px;border:0;display:block;overflow:hidden" scrolling="no" allowfullscreen></iframe>
 </div>
 <script>
 (function(){
@@ -9,7 +9,7 @@
   var frame=document.getElementById('ecm-embed-frame');
   if(!wrap||!frame)return;
   var base='https://cdn.jsdelivr.net/gh/favoritecode/EEE-Career-Masterbook@main/blogger-web/';
-  var version='20260805-panel-dark2';
+  var version='20260805-panel-dark3';
   fetch(base+'index.html?v='+version)
     .then(function(r){return r.text();})
     .then(function(html){

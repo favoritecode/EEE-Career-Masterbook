@@ -24,9 +24,11 @@ let html = template
   .replace(/<script>[\s\S]*?<\/script>\s*$/, '')
   .trim();
 
-const assetVersion = '20260805-panel-dark2';
+const assetVersion = '20260805-panel-dark3';
 const criticalEmbedCss = `<style id="ecm-embed-critical">
+html,body{overflow-x:hidden;scrollbar-width:none}html::-webkit-scrollbar,body::-webkit-scrollbar,#eee-masterbook *::-webkit-scrollbar{width:0;height:0;display:none}#eee-masterbook *{scrollbar-width:none}
 @media(min-width:761px){#eee-masterbook .ecm-layout{align-items:stretch!important}#eee-masterbook .ecm-chapters{position:relative!important;top:auto!important;height:auto!important;max-height:none!important;overflow:visible!important}#eee-masterbook .ecm-viewer{display:flex!important;flex-direction:column!important;height:auto!important;overflow:visible!important}#eee-masterbook .ecm-content{flex:1!important}}
+html.dark #eee-masterbook,html.dark #eee-masterbook p,html.dark #eee-masterbook li,html.dark #eee-masterbook span,html.dark #eee-masterbook small,html.dark #eee-masterbook b,html.dark #eee-masterbook td,html.dark #eee-masterbook th,html.dark #eee-masterbook button,html.dark #eee-masterbook input,#eee-masterbook.dark,#eee-masterbook.dark p,#eee-masterbook.dark li,#eee-masterbook.dark span,#eee-masterbook.dark small,#eee-masterbook.dark b,#eee-masterbook.dark td,#eee-masterbook.dark th,#eee-masterbook.dark button,#eee-masterbook.dark input{color:#f2f7fb!important}
 </style>`;
 const criticalEmbedScript = `<script>
 (function(){
