@@ -68,6 +68,9 @@ html.dark #eee-masterbook .ecm-content th{background:#0f2228}
 html.dark #eee-masterbook .ecm-content th,html.dark #eee-masterbook .ecm-content td{border-color:#2a4150}
 html.dark #eee-masterbook .ecm-count{background:#122530;border-color:#2a4150;color:#93b0bc}
 </style>
+<style id="ecm-embed-critical">
+@media(min-width:761px){#eee-masterbook .ecm-layout{align-items:stretch!important}#eee-masterbook .ecm-chapters{position:relative!important;top:auto!important;height:auto!important;max-height:none!important;overflow:visible!important}#eee-masterbook .ecm-viewer{display:flex!important;flex-direction:column!important;height:auto!important;overflow:visible!important}#eee-masterbook .ecm-content{flex:1!important}}
+</style>
 <script>window.MathJax=window.MathJax||{tex:{inlineMath:[['\\(','\\)']],displayMath:[['\\[','\\]']]},options:{skipHtmlTags:['script','noscript','style','textarea','pre','code']}};</script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
@@ -594,6 +597,22 @@ try{
 }catch(err){}
 /* Parent-frame auto-height notification (Blogger iframe loader support) */
 try{if(window.parent!==window){const send=()=>{parent.postMessage({ecmHeight:Math.max(document.documentElement.scrollHeight,document.body.scrollHeight)},'*')};send();window.addEventListener('resize',send);if(window.MutationObserver){const ro=new MutationObserver(send);ro.observe(document.body,{childList:true,subtree:true,attributes:true})}setTimeout(send,600);setTimeout(send,2000);setTimeout(send,5000)}}catch(e){}
+</script>
+<script>
+(function(){
+  var raf=0;
+  function root(){return document.getElementById('eee-masterbook')}
+  function setDark(dark){document.documentElement.classList.toggle('dark',dark);var r=root();if(r)r.classList.toggle('dark',dark)}
+  function parentDark(){try{return !!((parent.document.body&&parent.document.body.classList.contains('dark'))||parent.document.documentElement.classList.contains('dark'))}catch(e){return !!((document.body&&document.body.classList.contains('dark'))||document.documentElement.classList.contains('dark'))}}
+  function syncDark(){setDark(parentDark())}
+  function syncPanels(){raf=0;var r=root(),l=r&&r.querySelector('.ecm-chapters'),v=r&&r.querySelector('.ecm-viewer');if(!l||!v)return;l.style.minHeight='';v.style.minHeight='';if(innerWidth<=760)return;var h=Math.ceil(Math.max(l.offsetHeight,v.offsetHeight));l.style.minHeight=h+'px';v.style.minHeight=h+'px'}
+  function queuePanels(){if(raf)cancelAnimationFrame(raf);raf=requestAnimationFrame(syncPanels)}
+  window.addEventListener('message',function(e){try{if(e.data&&typeof e.data.ecmDark==='boolean')setDark(e.data.ecmDark)}catch(err){}});
+  window.addEventListener('resize',queuePanels);
+  document.addEventListener('load',function(e){if(e.target&&e.target.closest&&e.target.closest('#eee-masterbook'))queuePanels()},true);
+  syncDark();queuePanels();setTimeout(queuePanels,300);setTimeout(queuePanels,1200);setTimeout(queuePanels,3000);
+  try{if(window.MutationObserver){var obs=new MutationObserver(function(){syncDark();queuePanels()});obs.observe(document.documentElement,{attributes:true,attributeFilter:['class']});if(document.body)obs.observe(document.body,{attributes:true,attributeFilter:['class']});var pr=parent.document;if(pr&&pr!==document){if(pr.body)obs.observe(pr.body,{attributes:true,attributeFilter:['class']});obs.observe(pr.documentElement,{attributes:true,attributeFilter:['class']})}var r=root();if(r)obs.observe(r,{childList:true,subtree:true,attributes:true})}}catch(err){}
+})();
 </script>
 </body>
 </html>

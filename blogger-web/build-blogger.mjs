@@ -62,9 +62,9 @@ fs.writeFileSync(path.join(import.meta.dirname, 'index.html'), indexHtml);
 
 // ---- 3. Generate self-contained single-file versions (optional) ----
 let built = fs.readFileSync(path.join(import.meta.dirname, 'index.html'), 'utf8');
-built = built.replace('<link rel="stylesheet" href="assets/styles.css">', () => `<style>${fs.readFileSync(path.join(import.meta.dirname, 'assets', 'styles.css'), 'utf8')}</style>`);
-built = built.replace('<script src="assets/data.js"></script>', () => `<script>${fs.readFileSync(path.join(import.meta.dirname, 'assets', 'data.js'), 'utf8')}</script>`);
-built = built.replace('<script src="assets/app.js"></script>', () => `<script>${fs.readFileSync(path.join(import.meta.dirname, 'assets', 'app.js'), 'utf8')}</script>`);
+built = built.replace(/<link rel="stylesheet" href="assets\/styles\.css(?:\?v=[^"]+)?">/, () => `<style>${fs.readFileSync(path.join(import.meta.dirname, 'assets', 'styles.css'), 'utf8')}</style>`);
+built = built.replace(/<script src="assets\/data\.js(?:\?v=[^"]+)?"><\/script>/, () => `<script>${fs.readFileSync(path.join(import.meta.dirname, 'assets', 'data.js'), 'utf8')}</script>`);
+built = built.replace(/<script src="assets\/app\.js(?:\?v=[^"]+)?"><\/script>/, () => `<script>${fs.readFileSync(path.join(import.meta.dirname, 'assets', 'app.js'), 'utf8')}</script>`);
 fs.writeFileSync(path.join(import.meta.dirname, 'eee-career-masterbook-self-contained.html'), built);
 const bloggerBuilt = built.replace(
   '</title>',
